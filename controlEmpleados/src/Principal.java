@@ -16,7 +16,10 @@ public class Principal extends JFrame implements ActionListener{
 
 	private static final long serialVersionUID = 1L;
     private JButton b1,b2,b3,b4; 
-      
+    System.out.println("Bienvenido");
+    System.out.println("Adios");  
+    
+    
 	public Principal() {
 	
 	 setTitle("Ventana INICIAL.");
@@ -48,7 +51,7 @@ public class Principal extends JFrame implements ActionListener{
 	 setVisible(true);
    }
 
-	public void actionPerformed(ActionEvent e) //acción cuando pulsamos botones 
+	public void actionPerformed(ActionEvent e) //acciï¿½n cuando pulsamos botones 
 	    {  	  	
 	    	     if (e.getSource() == b1) 	
 	    	     {	   new VentanaEmple(this);
